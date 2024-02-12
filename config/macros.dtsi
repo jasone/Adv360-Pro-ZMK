@@ -1,38 +1,26 @@
+macro_dquotes: macro_dquotes{
+compatible = "zmk,behavior-macro";
+label = "macro_dquotes";
+#binding-cells = <0>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+};
+macro_slashes: macro_slashes{
+compatible = "zmk,behavior-macro";
+label = "macro_slashes";
+#binding-cells = <0>;
+bindings = <&kp SLASH>, <&kp SLASH>, <&kp LEFT>;
+};
 macro_pipes: macro_pipes{
 compatible = "zmk,behavior-macro";
 label = "macro_pipes";
 #binding-cells = <0>;
 bindings = <&kp PIPE>, <&kp PIPE>, <&kp LEFT>;
 };
-macro_pure_apply: macro_pure_apply{
-compatible = "zmk,behavior-macro";
-label = "macro_pure_apply";
-#binding-cells = <0>;
-bindings = <&kp TILDE>, <&kp MINUS>, <&kp GT>;
-};
 macro_rarrow: macro_rarrow{
 compatible = "zmk,behavior-macro";
 label = "macro_rarrow";
 #binding-cells = <0>;
 bindings = <&kp MINUS>, <&kp GT>;
-};
-macro_markdown_quotes: macro_markdown_quotes{
-compatible = "zmk,behavior-macro";
-label = "macro_markdown_quotes";
-#binding-cells = <0>;
-bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>, <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>, <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>;
-};
-macro_c_comment: macro_c_comment{
-compatible = "zmk,behavior-macro";
-label = "macro_c_comment";
-#binding-cells = <0>;
-bindings = <&kp SLASH>, <&kp SLASH>, <&kp LEFT>, <&kp STAR>, <&kp STAR>, <&kp LEFT>, <&kp SPACE>, <&kp SPACE>, <&kp LEFT>;
-};
-macro_ml_comment: macro_ml_comment{
-compatible = "zmk,behavior-macro";
-label = "macro_ml_comment";
-#binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>, <&kp STAR>, <&kp STAR>, <&kp LEFT>, <&kp SPACE>, <&kp SPACE>, <&kp LEFT>;
 };
 macro_name: macro_name{
 compatible = "zmk,behavior-macro";

@@ -61,7 +61,7 @@
 
         layer_CONFIG {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kt LOCKING_NUM                                                                           &none   &none       &none       &none       &none   &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kt LOCKING_NUM                                                              &kt LOCKING_SCROLL   &none       &none       &none       &none   &none   &none
   &none         &none         &none         &none         &none         &none                &bootloader                                                                     &bootloader   &none       &none       &none       &none   &none   &none
   &none         &none         &none         &none         &none         &none                      &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none       &none   &none   &none
   &none         &none         &none         &none         &none         &none                                      &none                       &none                                       &none       &none       &none  &macro_ver   &none   &none

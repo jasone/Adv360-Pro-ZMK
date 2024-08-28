@@ -28,18 +28,6 @@ label = "macro_rarrow";
 #binding-cells = <0>;
 bindings = <&kp MINUS>, <&kp GT>;
 };
-macro_name: macro_name{
-compatible = "zmk,behavior-macro";
-label = "macro_name";
-#binding-cells = <0>;
-bindings = <&kp LS(J)>, <&kp A>, <&kp S>, <&kp O>, <&kp N>, <&kp SPACE>, <&kp LS(E)>, <&kp V>, <&kp A>, <&kp N>, <&kp S>;
-};
-macro_je: macro_je{
-compatible = "zmk,behavior-macro";
-label = "macro_je";
-#binding-cells = <0>;
-bindings = <&kp J>, <&kp E>, <&kp AT>, <&kp B>, <&kp R>, <&kp A>, <&kp N>, <&kp C>, <&kp H>, <&kp T>, <&kp A>, <&kp K>, <&kp E>, <&kp N>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
-};
 macro_lt_gt: macro_lt_gt{
 compatible = "zmk,behavior-macro";
 label = "macro_lt_gt";
